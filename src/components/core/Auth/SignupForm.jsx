@@ -12,7 +12,7 @@ import Tab from "../../common/Tab"
 function SignupForm() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
-
+  
   // student or instructor
   const [accountType, setAccountType] = useState(ACCOUNT_TYPE.STUDENT)
 
